@@ -10,7 +10,7 @@ CHAT_ID = os.environ["TELEGRAM_CHAT_ID"]
 SEEN_FILE = Path("seen.json")
 API_URL = (
     "https://www.gamerpower.com/api/filter?"
-    "platform=steam.epic-games-store.gog&type=game"
+    "platform=steam.epic-games-store.gog&type=game.loot"
 )
 
 def get_json(url):
